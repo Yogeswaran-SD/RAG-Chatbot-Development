@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# FastAPI
+.env
+.env.local
+
+# Vector Database
+backend/chroma_db/
+backend/uploads/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Misc
+*.pdf
+*.docx
+*.txt
+!requirements.txt
