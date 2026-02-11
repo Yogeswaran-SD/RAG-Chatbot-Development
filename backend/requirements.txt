@@ -3,13 +3,13 @@ uvicorn[standard]==0.27.0
 python-dotenv==1.0.0
 python-multipart==0.0.6
 
-# LangChain
-langchain==0.1.6
-langchain-openai==0.0.5
-langchain-community==0.0.19
+# LangChain - Compatible versions
+langchain==0.1.20
+langchain-openai==0.1.7
+langchain-community==0.0.38
 
 # Vector Store
-chromadb==0.4.22
+chromadb==0.4.24
 
 # Document Processing
 pypdf2==3.0.1
@@ -18,7 +18,7 @@ unstructured==0.12.0
 
 # Embeddings
 sentence-transformers==2.3.1
-openai==1.12.0
+openai==1.24.0
 
 # Utils
 pydantic==2.5.3
